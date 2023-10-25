@@ -1,0 +1,44 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Película to guapa",
+      "director": "Director to guapo",
+      "posterUrl": "https://pelistoguapas.com/pelitoguapa.webp",
+      "synopsis": "Fuá increíble cómo lo flipas con esta película"
+    },
+    {
+      "id": 2,
+      "title": "Película truñaco",
+      "director": "Director to malo",
+      "posterUrl": "https://pelistruño.com/pelitruñaco.webp",
+      "synopsis": "Fuá vaya mierdaca de película"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "dates": ["2023-11-15T18:30:00", "2023-11-16T18:00:00"],
+      "price": 9
+    }
+  ],
+  "seats": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "sessionId": 1,
+      "reserved": ["r1s3", "r1s4"]
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "session": 1,
+      "seats": ["r1s3", "r1s4"],
+      "url": "url-del-ticket",
+      "price": 9
+    }
+  ]
+}
